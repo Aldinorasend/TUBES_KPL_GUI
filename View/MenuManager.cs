@@ -37,7 +37,7 @@ namespace View
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
                 // Mendapatkan nilai dari sel dalam baris yang diklik
-                string IdMenu = row.Cells[0].Value?.ToString() ?? string.Empty;
+                int IdMenu = int.Parse(row.Cells[2].Value.ToString() ?? string.Empty);
                 string namaMenu = row.Cells[1].Value?.ToString() ?? string.Empty;
 
                 // Penanganan konversi Harga
@@ -48,7 +48,7 @@ namespace View
                 }
 
                 // Menetapkan nilai ke TextBox
-                txtId.Text = IdMenu;
+                txtId.Text = IdMenu.ToString();
                 txtNama.Text = namaMenu;
                 txtHarga.Text = Harga.ToString();
 
@@ -116,7 +116,7 @@ namespace View
         private void btnAdd_Click(object sender, EventArgs e)
         {
             /*Secure code input validation*/
-            string idMenu = txtId.Text;
+            int idMenu = int.Parse(txtId.Text);
             string nama = txtNama.Text;
             if (!int.TryParse(txtHarga.Text, out int harga))
             {
@@ -146,7 +146,7 @@ namespace View
             }
         }
 
-        private bool Validate(string idMenu)
+        private bool Validate(int idMenu)
         {
             List<Menu> dtMenu = ReadJSON();
             for (int i = 0; i < dtMenu.Count; i++)
