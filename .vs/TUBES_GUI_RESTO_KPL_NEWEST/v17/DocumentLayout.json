@@ -1,42 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\",
+  "WorkspaceRootPath": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|c:\\users\\harit\\onedrive\\documents\\github\\tubes_kpl_gui\\view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|c:\\users\\harit\\onedrive\\documents\\github\\tubes_kpl_gui\\view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\main\\model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|solutionrelative:main\\model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|c:\\users\\harit\\onedrive\\documents\\github\\tubes_kpl_gui\\main\\model\\pesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|solutionrelative:main\\model\\pesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|c:\\users\\harit\\onedrive\\documents\\github\\tubes_kpl_gui\\view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\main\\data\\datamenu.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|solutionrelative:main\\data\\datamenu.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|solutionrelative:main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\main\\model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|solutionrelative:main\\model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,119 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pesanan.cs",
-              "DocumentMoniker": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\Main\\Model\\Pesanan.cs",
-              "RelativeDocumentMoniker": "Main\\Model\\Pesanan.cs",
-              "ToolTip": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\Main\\Model\\Pesanan.cs",
-              "RelativeToolTip": "Main\\Model\\Pesanan.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\OrderManager.cs",
+              "RelativeDocumentMoniker": "View\\OrderManager.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\OrderManager.cs",
+              "RelativeToolTip": "View\\OrderManager.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAcwEkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T17:58:55.667Z",
+              "WhenOpened": "2024-06-19T18:27:35.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderManager.cs",
-              "DocumentMoniker": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\OrderManager.cs",
-              "RelativeDocumentMoniker": "View\\OrderManager.cs",
-              "ToolTip": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\OrderManager.cs",
-              "RelativeToolTip": "View\\OrderManager.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwCkAAAAtAAAA",
+              "DocumentIndex": 4,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Model\\Menu.cs",
+              "RelativeDocumentMoniker": "Main\\Model\\Menu.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Model\\Menu.cs",
+              "RelativeToolTip": "Main\\Model\\Menu.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T17:58:22.771Z",
+              "WhenOpened": "2024-06-19T18:26:35.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderManager.cs [Design]",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\OrderManager.cs",
+              "RelativeDocumentMoniker": "View\\OrderManager.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\OrderManager.cs [Design]",
+              "RelativeToolTip": "View\\OrderManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T18:26:20.315Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs",
+              "RelativeDocumentMoniker": "View\\MenuManager.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs",
+              "RelativeToolTip": "View\\MenuManager.cs",
+              "ViewState": "AQIAAPQAAAAAAAAAAAAQwP4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T18:20:20.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\OrderManager.cs",
-              "RelativeDocumentMoniker": "View\\OrderManager.cs",
-              "ToolTip": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\OrderManager.cs [Design]",
-              "RelativeToolTip": "View\\OrderManager.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T17:58:00.212Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MenuManager.cs",
-              "DocumentMoniker": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\MenuManager.cs",
-              "RelativeDocumentMoniker": "View\\MenuManager.cs",
-              "ToolTip": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\MenuManager.cs",
-              "RelativeToolTip": "View\\MenuManager.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAABxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:30:42.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\Main\\Model\\Menu.cs",
-              "RelativeDocumentMoniker": "Main\\Model\\Menu.cs",
-              "ToolTip": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\Main\\Model\\Menu.cs",
-              "RelativeToolTip": "Main\\Model\\Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:28:32.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\Program.cs",
-              "RelativeDocumentMoniker": "View\\Program.cs",
-              "ToolTip": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\Program.cs",
-              "RelativeToolTip": "View\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:26:46.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "MenuManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\MenuManager.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs",
               "RelativeDocumentMoniker": "View\\MenuManager.cs",
-              "ToolTip": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\MenuManager.cs [Design]",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs [Design]",
               "RelativeToolTip": "View\\MenuManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:26:31.184Z",
+              "WhenOpened": "2024-06-19T18:20:17.238Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\Main\\Program.cs",
-              "RelativeDocumentMoniker": "Main\\Program.cs",
-              "ToolTip": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\Main\\Program.cs",
-              "RelativeToolTip": "Main\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:27:32.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dataMenu.json",
-              "DocumentMoniker": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\Main\\Data\\dataMenu.json",
-              "RelativeDocumentMoniker": "Main\\Data\\dataMenu.json",
-              "ToolTip": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\Main\\Data\\dataMenu.json",
-              "RelativeToolTip": "Main\\Data\\dataMenu.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-19T16:29:07.089Z"
             }
           ]
         }

@@ -8,7 +8,7 @@ namespace Main.Model
 {
     public class Menu
     {
-        public string IdMenu { get; set; }
+        public int IdMenu { get; set; }
 
         public string Nama { get; set; }
 
@@ -16,7 +16,7 @@ namespace Main.Model
 
 
 
-        public Menu(string IdMenu, string Nama, int Harga)
+        public Menu(int IdMenu, string Nama, int Harga)
         {
 
             this.IdMenu = IdMenu;

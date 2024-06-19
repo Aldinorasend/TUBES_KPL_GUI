@@ -30,3 +30,4 @@ D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.csproj.CoreCompileI
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.csproj.Up2Date
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.exe
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.pdb
+D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.OrderManager.resources
