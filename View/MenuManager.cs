@@ -37,7 +37,7 @@ namespace View
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
                 // Mendapatkan nilai dari sel dalam baris yang diklik
-                int IdMenu = int.Parse(row.Cells[2].Value.ToString() ?? string.Empty);
+                int IdMenu = int.Parse(row.Cells[0].Value.ToString() ?? string.Empty);
                 string namaMenu = row.Cells[1].Value?.ToString() ?? string.Empty;
 
                 // Penanganan konversi Harga
@@ -195,10 +195,10 @@ namespace View
         {
 
             List<Menu> list = ReadJSON();
-            string idMenu = txtId.Text;
-            if (string.IsNullOrEmpty(idMenu))
+            int idMenu = int.Parse(txtId.Text);
+            if (idMenu == null)
             {
-                MessageBox.Show("Masukkan Nama Barang");
+                MessageBox.Show("Masukkan Id Menu");
             }
             else
             {
@@ -220,11 +220,11 @@ namespace View
         {
 
             List<Menu> list = ReadJSON();
-            string idMenu = txtId.Text;
+            int idMenu = int.Parse(txtId.Text);
             string nama = txtNama.Text;
             int harga = int.Parse(txtHarga.Text);
 
-            if (string.IsNullOrEmpty(idMenu))
+            if (idMenu == null)
             {
                 MessageBox.Show("Masukkan Id Menu");
             }
