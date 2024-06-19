@@ -80,10 +80,19 @@
     <Compile Include="MenuManager.Designer.cs">
       <DependentUpon>MenuManager.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrderManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderManager.Designer.cs">
+      <DependentUpon>OrderManager.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MenuManager.resx">
       <DependentUpon>MenuManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderManager.resx">
+      <DependentUpon>OrderManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
