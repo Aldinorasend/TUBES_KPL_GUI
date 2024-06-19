@@ -1,12 +1,121 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\main\\model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|solutionrelative:main\\model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\main\\data\\datamenu.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|solutionrelative:main\\data\\datamenu.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|solutionrelative:main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs",
+              "RelativeDocumentMoniker": "View\\MenuManager.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs",
+              "RelativeToolTip": "View\\MenuManager.cs",
+              "ViewState": "AQIAANcAAAAAAAAAAAAUwOgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:30:42.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dataMenu.json",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Data\\dataMenu.json",
+              "RelativeDocumentMoniker": "Main\\Data\\dataMenu.json",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Data\\dataMenu.json",
+              "RelativeToolTip": "Main\\Data\\dataMenu.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-19T16:29:07.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Model\\Menu.cs",
+              "RelativeDocumentMoniker": "Main\\Model\\Menu.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Model\\Menu.cs",
+              "RelativeToolTip": "Main\\Model\\Menu.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:28:32.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Program.cs",
+              "RelativeDocumentMoniker": "Main\\Program.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Program.cs",
+              "RelativeToolTip": "Main\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:27:32.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\Program.cs",
+              "RelativeDocumentMoniker": "View\\Program.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\Program.cs",
+              "RelativeToolTip": "View\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:26:46.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuManager.cs [Design]",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs",
+              "RelativeDocumentMoniker": "View\\MenuManager.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs [Design]",
+              "RelativeToolTip": "View\\MenuManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:26:31.184Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

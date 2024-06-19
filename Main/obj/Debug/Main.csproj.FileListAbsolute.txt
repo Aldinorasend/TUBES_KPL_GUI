@@ -1,0 +1,7 @@
+D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\Main\bin\Debug\Main.exe.config
+D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\Main\bin\Debug\Main.exe
+D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\Main\bin\Debug\Main.pdb
+D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\Main\obj\Debug\Main.csproj.AssemblyReference.cache
+D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\Main\obj\Debug\Main.exe
+D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\Main\obj\Debug\Main.pdb
