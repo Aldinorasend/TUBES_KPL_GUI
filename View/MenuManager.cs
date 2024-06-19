@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -16,7 +17,10 @@ namespace View
 {
     public partial class MenuManager : Form
     {
-        public string fileDataPathMenu = "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Data\\dataMenu.json";
+
+        //Secure code principle, Path Handling
+        public string FileDataPathMenu { get; } = Path.Combine(Application.StartupPath, "Data", "dataMenu.json");
+
 
         public MenuManager()
         {
@@ -56,7 +60,7 @@ namespace View
         {
 
             dataGridView1.Rows.Clear();
-            List<Menu> daftarMenu = ReadJsonFile(fileDataPathMenu);
+            List<Menu> daftarMenu = ReadJSONFile(FileDataPathMenu);
 
             foreach (var menu in daftarMenu)
             {
@@ -64,23 +68,20 @@ namespace View
             }
         }
 
-        private List<Menu> ReadJsonFile(string fileDataPathMenu)
+        private List<Menu> ReadJSONFile(string fileDataPathMenu)
         {
             List<Menu> daftarMenu = new List<Menu>();
-
+           /* Secure Code Exception Handling*/
             try
             {
-                if (string.IsNullOrEmpty(fileDataPathMenu))
-                {
-                    throw new ArgumentException("File path cannot be null or empty.", nameof(fileDataPathMenu));
-                }
-
+                // Baca file JSON
                 string json;
-                using (StreamReader reader = new StreamReader(fileDataPathMenu))
+                using (StreamReader reader = new StreamReader(FileDataPathMenu))
                 {
                     json = reader.ReadToEnd();
                 }
 
+                // Deserialize JSON ke List<Menu>
                 daftarMenu = JsonSerializer.Deserialize<List<Menu>>(json);
             }
             catch (FileNotFoundException ex)
@@ -95,6 +96,7 @@ namespace View
             {
                 MessageBox.Show($"Error reading JSON file: {ex.Message}");
             }
+
 
             return daftarMenu;
         }
@@ -113,9 +115,16 @@ namespace View
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            String idMenu = txtId.Text;
-            String nama = txtNama.Text;
-            int harga = int.Parse(txtHarga.Text);
+            /*Secure code input validation*/
+            string idMenu = txtId.Text;
+            string nama = txtNama.Text;
+            if (!int.TryParse(txtHarga.Text, out int harga))
+            {
+                MessageBox.Show("Harga harus berupa angka.");
+                return;
+            }
+
+            // Validasi ID Menu
             List<Menu> dtmenu = ReadJSON();
             bool statusMenu = Validate(idMenu);
 
@@ -125,12 +134,14 @@ namespace View
             }
             else
             {
-                Menu dtMn = new Menu(idMenu, nama, harga);
-                dtmenu.Add(dtMn);
+                // Tambahkan menu baru
+                Menu newMenu = new Menu(idMenu, nama, harga);
+                dtmenu.Add(newMenu);
                 WriteJSON(dtmenu);
                 MessageBox.Show("Menu berhasil ditambahkan");
 
                 // Refresh DataGridView
+                ClearText();
                 PopulateDataGridView();
             }
         }
@@ -151,8 +162,8 @@ namespace View
         private void WriteJSON(List<Menu> dtmenu)
         {
 
-         string fileDataPathMenu = "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Data\\dataMenu.json";
-        JsonSerializerOptions options = new JsonSerializerOptions()
+            string fileDataPathMenu = Path.Combine(Application.StartupPath, "Data", "dataMenu.json"); 
+            JsonSerializerOptions options = new JsonSerializerOptions()
             {
                 WriteIndented = true
             };
@@ -164,7 +175,7 @@ namespace View
         private List<Menu> ReadJSON()
         {
 
-            string fileDataPathMenu = "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Data\\dataMenu.json";
+            string fileDataPathMenu = Path.Combine(Application.StartupPath, "Data", "dataMenu.json");
             List<Menu> Data = new List<Menu>();
             try
             {
@@ -182,6 +193,7 @@ namespace View
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+
             List<Menu> list = ReadJSON();
             string idMenu = txtId.Text;
             if (string.IsNullOrEmpty(idMenu))
@@ -206,6 +218,7 @@ namespace View
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+
             List<Menu> list = ReadJSON();
             string idMenu = txtId.Text;
             string nama = txtNama.Text;
