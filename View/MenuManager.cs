@@ -133,7 +133,7 @@ namespace View
                 MessageBox.Show("Id Menu telah digunakan");
             }
             else
-            {
+            {   
                 // Tambahkan menu baru
                 Menu newMenu = new Menu(idMenu, nama, harga);
                 dtmenu.Add(newMenu);
