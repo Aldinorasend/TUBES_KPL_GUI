@@ -19,6 +19,7 @@ namespace View
     {
         private List<Menu> menus;
         private List<Pesanan> pesananList;
+
         public OrderManager()
         {
             InitializeComponent();
@@ -27,18 +28,11 @@ namespace View
         private void LoadOrderData()
         {
             pesananList = ReadJSON();
-            var dataMenu = ReadMenuJSON();
-            var displayOrders = CombineOrderWithMenu(pesananList, dataMenu);
+            menus = ReadMenuJSON();
+            var displayOrders = CombineOrderWithMenu(pesananList, menus);
 
             dataGridView1.DataSource = displayOrders;
-
-            comboBox1.DataSource = dataMenu;
-            comboBox1.DisplayMember = "Name";
-            comboBox1.ValueMember = "Id";
-
-            dataGridView1.DataSource = displayOrders;
-
-            comboBox1.DataSource = dataMenu;
+            comboBox1.DataSource = menus;
             comboBox1.DisplayMember = "Name";
             comboBox1.ValueMember = "Id";
         }
@@ -47,87 +41,25 @@ namespace View
         {
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var selectedMenu = (Menu)comboBox1.SelectedItem;
-            var qty = (int)numericUpDown1.Value;
-            var namaPelanggan = textBox1.Text;
-
-            if (selectedMenu != null && qty > 0 && !string.IsNullOrWhiteSpace(namaPelanggan))
-            {
-                var total = selectedMenu.Harga * qty;
-                var newOrder = new Pesanan(selectedMenu.IdMenu, "Pending", namaPelanggan, qty, total);
-                pesananList.Add(newOrder);
-                WriteJSON(pesananList);
-
-                LoadOrderData(); // Refresh DataGridView
-            }
-            else
-            {
-                MessageBox.Show("Please fill all the fields correctly.");
-            }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-                {
-                    string menuName = row.Cells["MenuName"].Value.ToString();
-                    var orderToUpdate = pesananList.FirstOrDefault(p =>
-                        menus.Any(m => m.IdMenu == p.menuId && m.Nama == menuName) && p.Status == "Pending");
-
-                    if (orderToUpdate != null)
-                    {
-                        orderToUpdate.Status = "Completed";
-                    }
-                }
-                WriteJSON(pesananList);
-                LoadOrderData(); // Refresh DataGridView
-            }
-            else
-            {
-                MessageBox.Show("Please select an order to complete.");
-            }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-                {
-                    string menuName = row.Cells["MenuName"].Value.ToString();
-                    var orderToUpdate = pesananList.FirstOrDefault(p =>
-                        menus.Any(m => m.IdMenu == p.menuId && m.Nama == menuName) && p.Status == "Pending");
-
-                    if (orderToUpdate != null)
-                    {
-                        orderToUpdate.Status = "Cancelled";
-                    }
-                }
-                WriteJSON(pesananList);
-                LoadOrderData(); // Refresh DataGridView
-            }
-            else
-            {
-                MessageBox.Show("Please select an order to cancel.");
-            }
-        }
         public List<Pesanan> ReadJSON()
         {
             string filePathDataOrder = Path.Combine(Application.StartupPath, "Data", "dataPesanan.json");
             List<Pesanan> dataOrder = new List<Pesanan>();
             try
             {
-                string configJsonData = File.ReadAllText(filePathDataOrder);
-                dataOrder = JsonSerializer.Deserialize<List<Pesanan>>(configJsonData);
+                if (File.Exists(filePathDataOrder))
+                {
+                    string configJsonData = File.ReadAllText(filePathDataOrder);
+                    dataOrder = JsonSerializer.Deserialize<List<Pesanan>>(configJsonData);
+                }
+                else
+                {
+                    Console.WriteLine($"File '{filePathDataOrder}' not found.");
+                }
             }
             catch (Exception e)
             {
-                Console.WriteLine("Error: " + e.Message);
+                Console.WriteLine("Error reading JSON file: " + e.Message);
             }
             return dataOrder;
 
@@ -139,9 +71,17 @@ namespace View
             {
                 WriteIndented = true
             };
+            try
+            {
+                string jsonString = JsonSerializer.Serialize(newOrder, options);
+                File.WriteAllText(filePathDataOrder, jsonString);
 
-            string jsonString = JsonSerializer.Serialize(newOrder, options);
-            File.WriteAllText(filePathDataOrder, jsonString);
+                LoadOrderData(); // Memuat ulang data setelah menyimpan ke file JSON
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error writing JSON file: " + e.Message);
+            }
         }
         public List<Menu> ReadMenuJSON()
         {
@@ -149,24 +89,37 @@ namespace View
             List<Menu> dataMenu = new List<Menu>();
             try
             {
-                string configJsonData = File.ReadAllText(filePathDataMenu);
-                dataMenu = JsonSerializer.Deserialize<List<Menu>>(configJsonData);
+                if (File.Exists(filePathDataMenu))
+                {
+                    string configJsonData = File.ReadAllText(filePathDataMenu);
+                    dataMenu = JsonSerializer.Deserialize<List<Menu>>(configJsonData);
+                }
+                else
+                {
+                    Console.WriteLine($"File '{filePathDataMenu}' not found.");
+                }
             }
             catch (Exception e)
             {
-                Console.WriteLine("Error: " + e.Message);
+                Console.WriteLine("Error reading JSON file: " + e.Message);
             }
             return dataMenu;
         }
         public class DisplayOrder
         {
+            public string OrderName { get; set; }
+            public int IdMenu { get; set; }
             public string MenuName { get; set; }
+            public int HargaMenu { get; set; }
             public int Qty { get; set; }
             public int Total { get; set; }
             public string Status { get; set; }
 
-            public DisplayOrder(string menuName, int qty, int total, string status)
+            public DisplayOrder(string orderName, int idMenu, int hargaMenu, string menuName, int qty, int total, string status)
             {
+                OrderName = orderName;
+                IdMenu = idMenu;
+                HargaMenu = hargaMenu;
                 MenuName = menuName;
                 Qty = qty;
                 Total = total;
@@ -184,7 +137,7 @@ namespace View
                 if (menu != null)
                 {
                     int total = menu.Harga * order.Qty;
-                    displayOrders.Add(new DisplayOrder(menu.Nama, order.Qty, total, order.Status));
+                    displayOrders.Add(new DisplayOrder(order.Name, menu.IdMenu, menu.Harga, menu.Nama, order.Qty, total, order.Status));
                 }
             }
 
@@ -199,6 +152,32 @@ namespace View
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var selectedMenu = (Menu)comboBox1.SelectedItem;
+            var qty = (int)numericUpDown1.Value;
+            var namaPelanggan = textBox1.Text;
+
+            if (selectedMenu != null && qty > 0 && !string.IsNullOrWhiteSpace(namaPelanggan))
+            {
+                var total = selectedMenu.Harga * qty;
+                var newOrder = new Pesanan(selectedMenu.IdMenu, "Pending", namaPelanggan, qty, total);
+                pesananList.Add(newOrder);
+                WriteJSON(pesananList);
+
+                LoadOrderData(); // Refresh DataGridView
+            }
+            else
+            {
+                MessageBox.Show("Masukkan tidak mencukupi.");
+            }
         }
     }
 }
