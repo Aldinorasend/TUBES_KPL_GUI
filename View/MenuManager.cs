@@ -37,7 +37,7 @@ namespace View
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
                 // Mendapatkan nilai dari sel dalam baris yang diklik
-                string IdMenu = row.Cells[0].Value?.ToString() ?? string.Empty;
+                int IdMenu = int.Parse(row.Cells[0].Value.ToString() ?? string.Empty);
                 string namaMenu = row.Cells[1].Value?.ToString() ?? string.Empty;
 
                 // Penanganan konversi Harga
@@ -48,7 +48,7 @@ namespace View
                 }
 
                 // Menetapkan nilai ke TextBox
-                txtId.Text = IdMenu;
+                txtId.Text = IdMenu.ToString();
                 txtNama.Text = namaMenu;
                 txtHarga.Text = Harga.ToString();
 
@@ -116,7 +116,7 @@ namespace View
         private void btnAdd_Click(object sender, EventArgs e)
         {
             /*Secure code input validation*/
-            string idMenu = txtId.Text;
+            int idMenu = int.Parse(txtId.Text);
             string nama = txtNama.Text;
             if (!int.TryParse(txtHarga.Text, out int harga))
             {
@@ -133,7 +133,7 @@ namespace View
                 MessageBox.Show("Id Menu telah digunakan");
             }
             else
-            {
+            {   
                 // Tambahkan menu baru
                 Menu newMenu = new Menu(idMenu, nama, harga);
                 dtmenu.Add(newMenu);
@@ -146,7 +146,7 @@ namespace View
             }
         }
 
-        private bool Validate(string idMenu)
+        private bool Validate(int idMenu)
         {
             List<Menu> dtMenu = ReadJSON();
             for (int i = 0; i < dtMenu.Count; i++)
@@ -195,10 +195,10 @@ namespace View
         {
 
             List<Menu> list = ReadJSON();
-            string idMenu = txtId.Text;
-            if (string.IsNullOrEmpty(idMenu))
+            int idMenu = int.Parse(txtId.Text);
+            if (idMenu == null)
             {
-                MessageBox.Show("Masukkan Nama Barang");
+                MessageBox.Show("Masukkan Id Menu");
             }
             else
             {
@@ -220,11 +220,11 @@ namespace View
         {
 
             List<Menu> list = ReadJSON();
-            string idMenu = txtId.Text;
+            int idMenu = int.Parse(txtId.Text);
             string nama = txtNama.Text;
             int harga = int.Parse(txtHarga.Text);
 
-            if (string.IsNullOrEmpty(idMenu))
+            if (idMenu == null)
             {
                 MessageBox.Show("Masukkan Id Menu");
             }
