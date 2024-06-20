@@ -14,13 +14,14 @@ namespace Main.Model
         public int Qty { get; set; }
         public int Jumlah { get; set; }
 
-        public Pesanan(int _menuId, string _Status, string _Name, int _Qty, int _Jumlah)
+      public Pesanan(int menuId, string Status, string Name, int Qty, int Jumlah)
         {
-            this.menuId = _menuId;
-            this.Status = _Status;
-            this.Name = _Name;
-            this.Qty = _Qty;
-            this.Jumlah = _Jumlah;
+            this.menuId = menuId;
+            this.Status = Status;
+            this.Name = Name;
+            this.Qty = Qty;
+            this.Jumlah = Jumlah;
         }
+
     }
 }
