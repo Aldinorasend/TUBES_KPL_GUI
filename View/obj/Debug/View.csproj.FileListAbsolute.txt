@@ -65,3 +65,38 @@ C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.CoreCo
 C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.Up2Date
 C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.exe
 C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.pdb
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\View.exe.config
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\View.exe
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\View.pdb
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\Main.exe
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Memory.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\Main.pdb
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\Main.exe.config
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Memory.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.AssemblyReference.cache
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.MenuManager.resources
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.OrderManager.resources
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.OrderState.resources
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.Properties.Resources.resources
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.Register.resources
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.Up2Date
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.exe
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.pdb
