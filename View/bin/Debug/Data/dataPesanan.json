@@ -40,5 +40,12 @@
     "Name": "1",
     "Qty": 1,
     "Jumlah": 1000
+  },
+  {
+    "menuId": 1,
+    "Status": "Pending",
+    "Name": "Andi",
+    "Qty": 1,
+    "Jumlah": 1000
   }
 ]

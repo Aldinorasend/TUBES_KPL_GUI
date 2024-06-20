@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\view\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\view\\ordermanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\view\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|d:\\c# project\\tubes_gui_resto_kpl_newest\\view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\main\\model\\pesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\Program.cs",
+              "RelativeDocumentMoniker": "View\\Program.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\Program.cs",
+              "RelativeToolTip": "View\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T18:45:13.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "OrderManager.cs [Design]",
               "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\OrderManager.cs",
               "RelativeDocumentMoniker": "View\\OrderManager.cs",
@@ -58,32 +75,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\Program.cs",
-              "RelativeDocumentMoniker": "View\\Program.cs",
-              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\Program.cs",
-              "RelativeToolTip": "View\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "DocumentIndex": 0,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\OrderManager.cs",
+              "RelativeDocumentMoniker": "View\\OrderManager.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\OrderManager.cs",
+              "RelativeToolTip": "View\\OrderManager.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAnwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T18:45:13.411Z",
+              "WhenOpened": "2024-06-19T18:27:35.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\Controller.cs",
+              "RelativeDocumentMoniker": "View\\Controller.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\Controller.cs",
+              "RelativeToolTip": "View\\Controller.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAswH0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:18:47.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MenuManager.cs [Design]",
-              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs",
-              "RelativeDocumentMoniker": "View\\MenuManager.cs",
-              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs [Design]",
-              "RelativeToolTip": "View\\MenuManager.cs [Design]",
+              "Title": "OrderManager.Designer.cs",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\OrderManager.Designer.cs",
+              "RelativeDocumentMoniker": "View\\OrderManager.Designer.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\OrderManager.Designer.cs",
+              "RelativeToolTip": "View\\OrderManager.Designer.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAAAHYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T18:20:17.238Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-20T06:40:35.448Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs",
               "RelativeDocumentMoniker": "View\\MenuManager.cs",
@@ -91,38 +122,22 @@
               "RelativeToolTip": "View\\MenuManager.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAADwvxMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T18:20:20.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T18:20:20.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Controller.cs",
-              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\Controller.cs",
-              "RelativeDocumentMoniker": "View\\Controller.cs",
-              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\Controller.cs",
-              "RelativeToolTip": "View\\Controller.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAswIQAAAANAAAA",
+              "DocumentIndex": 6,
+              "Title": "MenuManager.cs [Design]",
+              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs",
+              "RelativeDocumentMoniker": "View\\MenuManager.cs",
+              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\MenuManager.cs [Design]",
+              "RelativeToolTip": "View\\MenuManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T06:18:47.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T18:20:17.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderManager.cs",
-              "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\OrderManager.cs",
-              "RelativeDocumentMoniker": "View\\OrderManager.cs",
-              "ToolTip": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\View\\OrderManager.cs",
-              "RelativeToolTip": "View\\OrderManager.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBMAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T18:27:35.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Menu.cs",
               "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Model\\Menu.cs",
               "RelativeDocumentMoniker": "Main\\Model\\Menu.cs",
@@ -134,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Pesanan.cs",
               "DocumentMoniker": "D:\\C# Project\\TUBES_GUI_RESTO_KPL_NEWEST\\Main\\Model\\Pesanan.cs",
               "RelativeDocumentMoniker": "Main\\Model\\Pesanan.cs",

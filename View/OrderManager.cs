@@ -19,6 +19,7 @@ namespace View
     {
         private List<Menu> menus;
         private List<Pesanan> pesananList;
+
         public OrderManager()
         {
             InitializeComponent();
@@ -27,81 +28,18 @@ namespace View
         private void LoadOrderData()
         {
             pesananList = ReadJSON();
-            var dataMenu = ReadMenuJSON();
-            var displayOrders = CombineOrderWithMenu(pesananList, dataMenu);
+            menus = ReadMenuJSON();
+            var displayOrders = CombineOrderWithMenu(pesananList, menus);
 
             dataGridView1.DataSource = displayOrders;
-
-            comboBox1.DataSource = dataMenu;
-            comboBox1.DisplayMember = "Nama";
+            comboBox1.DataSource = menus;
+            comboBox1.DisplayMember = "Name";
             comboBox1.ValueMember = "IdMenu";
-
-            /* dataGridView1.Rows.Clear();
-             List<Pesanan> daftarPesanan = ReadJSON();
-
-             foreach (var pesanan in daftarPesanan)
-             {
-                 dataGridView1.Rows.Add(pesanan.Name, pesanan.Jumlah, pesanan.Qty, pesanan.Status, pesanan.menuId);
-             }*/
-
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
-        }
-
-     
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-                {
-                    int idMenu = Convert.ToInt32(row.Cells["IdMenu"].Value); // Ambil ID Menu dari baris yang dipilih
-                    var orderToUpdate = pesananList.FirstOrDefault(p => p.menuId == idMenu && p.Status == "Pending");
-
-                    if (orderToUpdate != null)
-                    {
-                        orderToUpdate.Status = "Completed";
-                    }
-                    else
-                    {
-                        MessageBox.Show($"Order with ID Menu {idMenu} not found or is not Pending.");
-                    }
-                }
-                WriteJSON(pesananList);
-                LoadOrderData(); // Refresh DataGridView
-            }
-            else
-            {
-                MessageBox.Show("Please select an order to complete.");
-            }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-                {
-                    string menuName = row.Cells["MenuName"].Value.ToString();
-                    var orderToUpdate = pesananList.FirstOrDefault(p =>
-                        menus.Any(m => m.IdMenu == p.menuId && m.Nama == menuName) && p.Status == "Pending");
-
-                    if (orderToUpdate != null)
-                    {
-                        orderToUpdate.Status = "Cancelled";
-                    }
-                }
-                WriteJSON(pesananList);
-                LoadOrderData(); // Refresh DataGridView
-            }
-            else
-            {
-                MessageBox.Show("Please select an order to cancel.");
-            }
         }
         public List<Pesanan> ReadJSON()
         {
@@ -151,26 +89,33 @@ namespace View
             List<Menu> dataMenu = new List<Menu>();
             try
             {
-                string configJsonData = File.ReadAllText(filePathDataMenu);
-                dataMenu = JsonSerializer.Deserialize<List<Menu>>(configJsonData);
+                if (File.Exists(filePathDataMenu))
+                {
+                    string configJsonData = File.ReadAllText(filePathDataMenu);
+                    dataMenu = JsonSerializer.Deserialize<List<Menu>>(configJsonData);
+                }
+                else
+                {
+                    Console.WriteLine($"File '{filePathDataMenu}' not found.");
+                }
             }
             catch (Exception e)
             {
-                Console.WriteLine("Error: " + e.Message);
+                Console.WriteLine("Error reading JSON file: " + e.Message);
             }
             return dataMenu;
         }
         public class DisplayOrder
         {
             public string OrderName { get; set; }
-            public int IdMenu{ get; set; }
+            public int IdMenu { get; set; }
             public string MenuName { get; set; }
             public int HargaMenu { get; set; }
             public int Qty { get; set; }
             public int Total { get; set; }
             public string Status { get; set; }
 
-            public DisplayOrder(string orderName,int idMenu,int hargaMenu, string menuName,int qty, int total, string status)
+            public DisplayOrder(string orderName, int idMenu, int hargaMenu, string menuName, int qty, int total, string status)
             {
                 OrderName = orderName;
                 IdMenu = idMenu;
@@ -209,6 +154,11 @@ namespace View
 
         }
 
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Close();
+        }
+
         private void button1_Click_1(object sender, EventArgs e)
         {
             var selectedMenu = (Menu)comboBox1.SelectedItem;
@@ -226,7 +176,7 @@ namespace View
             }
             else
             {
-                MessageBox.Show("Please fill all the fields correctly.");
+                MessageBox.Show("Masukkan tidak mencukupi.");
             }
         }
     }
