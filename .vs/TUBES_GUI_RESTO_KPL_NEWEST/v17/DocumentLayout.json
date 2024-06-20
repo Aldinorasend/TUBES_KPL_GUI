@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|c:\\users\\harit\\onedrive\\documents\\github\\tubes_kpl_gui\\view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\main\\model\\pesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|solutionrelative:main\\model\\pesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\main\\model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|solutionrelative:main\\model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|c:\\users\\harit\\onedrive\\documents\\github\\tubes_kpl_gui\\main\\model\\pesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BACF1AD7-AD0D-4CE9-B66C-252C31512349}|Main\\Main.csproj|solutionrelative:main\\model\\pesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|c:\\users\\harit\\onedrive\\documents\\github\\tubes_kpl_gui\\view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,7 +50,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Pesanan.cs",
               "DocumentMoniker": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\Main\\Model\\Pesanan.cs",
               "RelativeDocumentMoniker": "Main\\Model\\Pesanan.cs",
@@ -69,7 +69,7 @@
               "RelativeDocumentMoniker": "View\\OrderManager.cs",
               "ToolTip": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\OrderManager.cs",
               "RelativeToolTip": "View\\OrderManager.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwCkAAAAtAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwLIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T17:58:22.771Z",
               "EditorCaption": ""
@@ -96,12 +96,11 @@
               "RelativeToolTip": "View\\MenuManager.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:30:42.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T16:30:42.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\Main\\Model\\Menu.cs",
               "RelativeDocumentMoniker": "Main\\Model\\Menu.cs",
@@ -109,8 +108,7 @@
               "RelativeToolTip": "Main\\Model\\Menu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:28:32.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T16:28:32.846Z"
             },
             {
               "$type": "Document",
@@ -133,8 +131,7 @@
               "ToolTip": "C:\\Users\\harit\\OneDrive\\Documents\\GitHub\\TUBES_KPL_GUI\\View\\MenuManager.cs [Design]",
               "RelativeToolTip": "View\\MenuManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:26:31.184Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-19T16:26:31.184Z"
             },
             {
               "$type": "Document",
