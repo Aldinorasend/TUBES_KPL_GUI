@@ -31,3 +31,37 @@ D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.csproj.Up2Date
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.exe
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.pdb
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.OrderManager.resources
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\View.exe.config
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\View.exe
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\View.pdb
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\Main.exe
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Memory.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\Main.pdb
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\Main.exe.config
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Memory.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.AssemblyReference.cache
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.MenuManager.resources
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.OrderManager.resources
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.OrderState.resources
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.Up2Date
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.exe
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.pdb
