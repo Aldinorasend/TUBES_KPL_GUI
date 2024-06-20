@@ -8,7 +8,7 @@
   },
   {
     "menuId": 1,
-    "Status": "Completed",
+    "Status": "Cancelled",
     "Name": "All",
     "Qty": 1,
     "Jumlah": 1000
@@ -29,7 +29,7 @@
   },
   {
     "menuId": 1,
-    "Status": "Cancelled",
+    "Status": "Completed",
     "Name": "j",
     "Qty": 1,
     "Jumlah": 1000
@@ -43,7 +43,7 @@
   },
   {
     "menuId": 1,
-    "Status": "Pending",
+    "Status": "Cancelled",
     "Name": "Andi",
     "Qty": 1,
     "Jumlah": 1000
