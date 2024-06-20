@@ -33,7 +33,7 @@ namespace View
 
             dataGridView1.DataSource = displayOrders;
             comboBox1.DataSource = menus;
-            comboBox1.DisplayMember = "Name";
+            comboBox1.DisplayMember = "Nama";
             comboBox1.ValueMember = "IdMenu";
 
            
