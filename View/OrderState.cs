@@ -57,6 +57,7 @@ namespace View
         private void UpdateOrderStatus(string newStatus)
         {
             // Mengecek apakah ada baris yang dipilih di dataGridView1
+            // Input Validation
             if (dataGridView1.SelectedRows.Count > 0)
             {
                 // Iterasi melalui semua baris yang dipilih
@@ -92,6 +93,7 @@ namespace View
         }
 
         // Membaca pesanan dari file JSON
+        // Exception Handling
         public List<Pesanan> ReadJSON()
         {
             string filePathDataOrder = Path.Combine(Application.StartupPath, "Data", "dataPesanan.json");
@@ -109,9 +111,20 @@ namespace View
                     Console.WriteLine($"File '{filePathDataOrder}' tidak ditemukan.");
                 }
             }
+            catch (JsonException je)
+            {
+                Console.WriteLine("Error deserializing JSON: " + je.Message);
+                MessageBox.Show("Format JSON tidak valid.");
+            }
+            catch (IOException ioe)
+            {
+                Console.WriteLine("Error membaca file: " + ioe.Message);
+                MessageBox.Show("Terjadi kesalahan saat membaca file.");
+            }
             catch (Exception e)
             {
-                Console.WriteLine("Error membaca file JSON: " + e.Message);
+                Console.WriteLine("Error: " + e.Message);
+                MessageBox.Show("Terjadi kesalahan yang tidak diketahui.");
             }
 
             return dataOrder;

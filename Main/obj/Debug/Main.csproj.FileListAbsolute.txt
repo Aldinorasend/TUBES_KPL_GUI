@@ -19,3 +19,10 @@ C:\KULIAH\KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.AssemblyReference.cache
 C:\KULIAH\KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
 C:\KULIAH\KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.exe
 C:\KULIAH\KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.pdb
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\Main\bin\Debug\Main.exe.config
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\Main\bin\Debug\Main.exe
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\Main\bin\Debug\Main.pdb
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.AssemblyReference.cache
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\Main\obj\Debug\Main.exe
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\Main\obj\Debug\Main.pdb
