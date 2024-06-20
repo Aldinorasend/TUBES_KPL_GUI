@@ -87,6 +87,12 @@
     <Compile Include="OrderManager.Designer.cs">
       <DependentUpon>OrderManager.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrderState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderState.Designer.cs">
+      <DependentUpon>OrderState.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MenuManager.resx">
@@ -94,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OrderManager.resx">
       <DependentUpon>OrderManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderState.resx">
+      <DependentUpon>OrderState.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
