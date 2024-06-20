@@ -12,3 +12,10 @@ C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.
 C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
 C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.exe
 C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.pdb
+C:\KULIAH\KPL\TUBES_KPL_GUI\Main\bin\Debug\Main.exe.config
+C:\KULIAH\KPL\TUBES_KPL_GUI\Main\bin\Debug\Main.exe
+C:\KULIAH\KPL\TUBES_KPL_GUI\Main\bin\Debug\Main.pdb
+C:\KULIAH\KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.AssemblyReference.cache
+C:\KULIAH\KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+C:\KULIAH\KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.exe
+C:\KULIAH\KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.pdb
