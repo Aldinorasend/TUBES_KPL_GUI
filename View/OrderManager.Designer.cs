@@ -36,6 +36,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -117,11 +118,23 @@
             this.dataGridView1.Size = new System.Drawing.Size(1119, 231);
             this.dataGridView1.TabIndex = 10;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(814, 399);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(112, 35);
+            this.button2.TabIndex = 19;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_2);
+            // 
             // OrderManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -149,5 +162,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button2;
     }
 }

@@ -65,53 +65,9 @@ namespace View
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-                {
-                    string menuName = row.Cells["MenuName"].Value.ToString();
-                    var orderToUpdate = pesananList.FirstOrDefault(p =>
-                        menus.Any(m => m.IdMenu == p.menuId && m.Nama == menuName) && p.Status == "Pending");
+       
 
-                    if (orderToUpdate != null)
-                    {
-                        orderToUpdate.Status = "Completed";
-                    }
-                }
-                WriteJSON(pesananList);
-                LoadOrderData(); // Refresh DataGridView
-            }
-            else
-            {
-                MessageBox.Show("Please select an order to complete.");
-            }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-                {
-                    string menuName = row.Cells["MenuName"].Value.ToString();
-                    var orderToUpdate = pesananList.FirstOrDefault(p =>
-                        menus.Any(m => m.IdMenu == p.menuId && m.Nama == menuName) && p.Status == "Pending");
-
-                    if (orderToUpdate != null)
-                    {
-                        orderToUpdate.Status = "Cancelled";
-                    }
-                }
-                WriteJSON(pesananList);
-                LoadOrderData(); // Refresh DataGridView
-            }
-            else
-            {
-                MessageBox.Show("Please select an order to cancel.");
-            }
-        }
+     
 
         
 
@@ -269,6 +225,11 @@ namespace View
             {
                 MessageBox.Show("Masukkan tidak mencukupi.");
             }
+        }
+
+        private void button2_Click_2(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
