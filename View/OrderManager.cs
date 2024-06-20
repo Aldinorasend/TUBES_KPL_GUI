@@ -35,12 +35,103 @@ namespace View
             comboBox1.DataSource = menus;
             comboBox1.DisplayMember = "Name";
             comboBox1.ValueMember = "IdMenu";
+
+           
+
         }
+
+        
+
+        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var selectedMenu = (Menu)comboBox1.SelectedItem;
+            var qty = (int)numericUpDown1.Value;
+            var namaPelanggan = textBox1.Text;
+
+            if (selectedMenu != null && qty > 0 && !string.IsNullOrWhiteSpace(namaPelanggan))
+            {
+                var total = selectedMenu.Harga * qty;
+                var newOrder = new Pesanan(selectedMenu.IdMenu, "Pending", namaPelanggan, qty, total);
+                pesananList.Add(newOrder);
+                WriteJSON(pesananList);
+
+                LoadOrderData(); // Refresh DataGridView
+            }
+            else
+            {
+                MessageBox.Show("Please fill all the fields correctly.");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
+                {
+                    string menuName = row.Cells["MenuName"].Value.ToString();
+                    var orderToUpdate = pesananList.FirstOrDefault(p =>
+                        menus.Any(m => m.IdMenu == p.menuId && m.Nama == menuName) && p.Status == "Pending");
+
+                    if (orderToUpdate != null)
+                    {
+                        orderToUpdate.Status = "Completed";
+                    }
+                }
+                WriteJSON(pesananList);
+                LoadOrderData(); // Refresh DataGridView
+            }
+            else
+            {
+                MessageBox.Show("Please select an order to complete.");
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                foreach (DataGridViewRow row in dataGridView1.SelectedRows)
+                {
+                    string menuName = row.Cells["MenuName"].Value.ToString();
+                    var orderToUpdate = pesananList.FirstOrDefault(p =>
+                        menus.Any(m => m.IdMenu == p.menuId && m.Nama == menuName) && p.Status == "Pending");
+
+                    if (orderToUpdate != null)
+                    {
+                        orderToUpdate.Status = "Cancelled";
+                    }
+                }
+                WriteJSON(pesananList);
+                LoadOrderData(); // Refresh DataGridView
+            }
+            else
+            {
+                MessageBox.Show("Please select an order to cancel.");
+            }
+        }
+
+        
+
+        
+
+       
+     
+
+       
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
+
+    
+
+      
+
+      
         public List<Pesanan> ReadJSON()
         {
             string filePathDataOrder = Path.Combine(Application.StartupPath, "Data", "dataPesanan.json");
