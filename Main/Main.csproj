@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Akun.cs" />
     <Compile Include="Model\Menu.cs" />
     <Compile Include="Model\Pesanan.cs" />
     <Compile Include="Program.cs" />

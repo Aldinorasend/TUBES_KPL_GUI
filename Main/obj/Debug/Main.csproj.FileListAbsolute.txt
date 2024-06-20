@@ -5,3 +5,10 @@ D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\Main\obj\Debug\Main.csproj.AssemblyRefe
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\Main\obj\Debug\Main.exe
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\Main\obj\Debug\Main.pdb
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\Main\bin\Debug\Main.exe.config
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\Main\bin\Debug\Main.exe
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\Main\bin\Debug\Main.pdb
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.AssemblyReference.cache
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.exe
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\Main\obj\Debug\Main.pdb
