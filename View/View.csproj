@@ -89,6 +89,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AkunManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkunManager.Designer.cs">
+      <DependentUpon>AkunManager.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controller.cs" />
     <Compile Include="Homepage.cs">
       <SubType>Form</SubType>
@@ -128,6 +134,9 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AkunManager.resx">
+      <DependentUpon>AkunManager.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Homepage.resx">
       <DependentUpon>Homepage.cs</DependentUpon>
     </EmbeddedResource>
