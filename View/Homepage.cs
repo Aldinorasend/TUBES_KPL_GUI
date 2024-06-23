@@ -30,7 +30,8 @@ namespace View
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            AkunManager ak = new AkunManager();
+            ak.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)

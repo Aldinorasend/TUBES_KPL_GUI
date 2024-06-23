@@ -26,3 +26,10 @@ C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\Main\obj\D
 C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
 C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\Main\obj\Debug\Main.exe
 C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\Main\obj\Debug\Main.pdb
+D:\C# Project\ABEL\TUBES_KPL_GUI\Main\bin\Debug\Main.exe.config
+D:\C# Project\ABEL\TUBES_KPL_GUI\Main\bin\Debug\Main.exe
+D:\C# Project\ABEL\TUBES_KPL_GUI\Main\bin\Debug\Main.pdb
+D:\C# Project\ABEL\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.AssemblyReference.cache
+D:\C# Project\ABEL\TUBES_KPL_GUI\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+D:\C# Project\ABEL\TUBES_KPL_GUI\Main\obj\Debug\Main.exe
+D:\C# Project\ABEL\TUBES_KPL_GUI\Main\obj\Debug\Main.pdb
