@@ -1,0 +1,51 @@
+[
+  {
+    "menuId": 1,
+    "Status": "Completed",
+    "Name": "Al",
+    "Qty": 1,
+    "Jumlah": 1000
+  },
+  {
+    "menuId": 1,
+    "Status": "Cancelled",
+    "Name": "All",
+    "Qty": 1,
+    "Jumlah": 1000
+  },
+  {
+    "menuId": 1,
+    "Status": "Completed",
+    "Name": "All",
+    "Qty": 1,
+    "Jumlah": 1000
+  },
+  {
+    "menuId": 1,
+    "Status": "Cancelled",
+    "Name": "j",
+    "Qty": 1,
+    "Jumlah": 1000
+  },
+  {
+    "menuId": 1,
+    "Status": "Cancelled",
+    "Name": "j",
+    "Qty": 1,
+    "Jumlah": 1000
+  },
+  {
+    "menuId": 1,
+    "Status": "Completed",
+    "Name": "1",
+    "Qty": 1,
+    "Jumlah": 1000
+  },
+  {
+    "menuId": 1,
+    "Status": "Cancelled",
+    "Name": "Andi",
+    "Qty": 1,
+    "Jumlah": 1000
+  }
+]

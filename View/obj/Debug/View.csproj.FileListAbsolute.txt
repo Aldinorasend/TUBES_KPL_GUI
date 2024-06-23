@@ -31,3 +31,146 @@ D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.csproj.Up2Date
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.exe
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.pdb
 D:\C# Project\TUBES_GUI_RESTO_KPL_NEWEST\View\obj\Debug\View.OrderManager.resources
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\View.exe.config
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\View.exe
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\View.pdb
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\Main.exe
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Memory.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.dll
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\Main.pdb
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\Main.exe.config
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Memory.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.xml
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.AssemblyReference.cache
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.MenuManager.resources
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.OrderManager.resources
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.OrderState.resources
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.Up2Date
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.exe
+C:\Users\alienware\Documents\KPL\TUBES_KPL_GUI\View\obj\Debug\View.pdb
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\View.exe.config
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\View.exe
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\View.pdb
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\Main.exe
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Memory.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.dll
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\Main.pdb
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\Main.exe.config
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Memory.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.xml
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.AssemblyReference.cache
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.MenuManager.resources
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.OrderManager.resources
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.OrderState.resources
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.Properties.Resources.resources
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.Register.resources
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.Up2Date
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.exe
+C:\Telkom University\Semester 4\KPL\TUBES_KPL\TUBES_KPL_GUI\View\obj\Debug\View.pdb
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\View.exe.config
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\View.exe
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\View.pdb
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\Main.exe
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.dll
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Memory.dll
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.dll
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.dll
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.dll
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.dll
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\Main.pdb
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\Main.exe.config
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.xml
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Memory.xml
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.xml
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.xml
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.xml
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.xml
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.AssemblyReference.cache
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.Homepage.resources
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.Login.resources
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.MenuManager.resources
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.OrderManager.resources
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.OrderState.resources
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.Properties.Resources.resources
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.Register.resources
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.csproj.Up2Date
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.exe
+C:\KULIAH\KPL\TUBES_KPL_GUI\View\obj\Debug\View.pdb
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\View.exe.config
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\View.exe
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\View.pdb
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\Main.exe
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.dll
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Memory.dll
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.dll
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.dll
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\Main.pdb
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\Main.exe.config
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Buffers.xml
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Memory.xml
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Text.Json.xml
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\bin\Debug\System.ValueTuple.xml
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.csproj.AssemblyReference.cache
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.Homepage.resources
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.Login.resources
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.MenuManager.resources
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.OrderManager.resources
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.OrderState.resources
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.Register.resources
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.csproj.Up2Date
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.exe
+C:\Users\alienware\Documents\KPL\FINAL TUBES STATEORDER\TUBES_KPL_GUI\View\obj\Debug\View.pdb

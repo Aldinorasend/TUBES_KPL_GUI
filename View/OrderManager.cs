@@ -38,17 +38,73 @@ namespace View
             dataGridView1.DataSource = displayOrders;
             // Menampilkan data menu ke dalam ComboBox
             comboBox1.DataSource = menus;
+<<<<<<< HEAD
             comboBox1.DisplayMember = "Name"; 
             comboBox1.ValueMember = "Id"; 
         }
 
         // Event handler untuk klik pada cell di DataGridView (kosong, bisa diisi sesuai kebutuhan)
+=======
+            comboBox1.DisplayMember = "Nama";
+            comboBox1.ValueMember = "IdMenu";
+
+           
+
+        }
+
+        
+
+        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var selectedMenu = (Menu)comboBox1.SelectedItem;
+            var qty = (int)numericUpDown1.Value;
+            var namaPelanggan = textBox1.Text;
+
+            if (selectedMenu != null && qty > 0 && !string.IsNullOrWhiteSpace(namaPelanggan))
+            {
+                var total = selectedMenu.Harga * qty;
+                var newOrder = new Pesanan(selectedMenu.IdMenu, "Pending", namaPelanggan, qty, total);
+                pesananList.Add(newOrder);
+                WriteJSON(pesananList);
+
+                LoadOrderData(); // Refresh DataGridView
+            }
+            else
+            {
+                MessageBox.Show("Please fill all the fields correctly.");
+            }
+        }
+
+       
+
+     
+
+        
+
+        
+
+       
+     
+
+       
+
+>>>>>>> c64248128ae30f4f29f8792e215a81cf404f703c
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
 
+<<<<<<< HEAD
         // Method untuk membaca data pesanan dari file JSON
+=======
+    
+
+      
+
+      
+>>>>>>> c64248128ae30f4f29f8792e215a81cf404f703c
         public List<Pesanan> ReadJSON()
         {
             string filePathDataOrder = Path.Combine(Application.StartupPath, "Data", "dataPesanan.json");
@@ -194,6 +250,11 @@ namespace View
             {
                 MessageBox.Show("Masukkan tidak mencukupi."); // Menampilkan pesan jika input tidak valid
             }
+        }
+
+        private void button2_Click_2(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
