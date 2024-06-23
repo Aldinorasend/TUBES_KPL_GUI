@@ -1,18 +1,24 @@
-﻿using System;
+﻿using Main.Model;
+using System;
 using System.Collections.Generic;
-
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.IO;
-
+using System.Linq;
+using System.Text;
 using System.Text.Json;
-
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using Main.Model;
 
 namespace View
 {
     public partial class AkunManager : Form
     {
+        // Path file data akun JSON
         public String fileDataPathAkun = Path.Combine(System.Windows.Forms.Application.StartupPath, "Data", "dataAkun.json");
+
         public AkunManager()
         {
             InitializeComponent();
@@ -25,19 +31,20 @@ namespace View
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
-                string Username = row.Cells[0].Value.ToString();
-                string Password = row.Cells[1].Value.ToString();
-                string Nama = row.Cells[2].Value.ToString();
+                string Username = row.Cells[0].Value?.ToString() ?? string.Empty;
+                string Password = row.Cells[1].Value?.ToString() ?? string.Empty;
+                string Nama = row.Cells[2].Value?.ToString() ?? string.Empty;
 
-
-                Akun akn = new Akun(Username, Password, Nama);
+                Akun akn = new Akun(SanitizeInput(Username), SanitizeInput(Password), SanitizeInput(Nama));
                 txtUname.Text = akn.Username;
                 txtPassword.Text = akn.Password;
                 txtName.Text = akn.Nama;
-
-
             }
+        }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Kosongkan metode ini jika tidak ada logika yang ingin ditambahkan saat sel diklik
         }
 
         private void PopulateDataGridView()
@@ -50,6 +57,7 @@ namespace View
                 dataGridView1.Rows.Add(Akun.Username, Akun.Password, Akun.Nama);
             }
         }
+
         private List<Akun> ReadJsonFile(string filePath)
         {
             List<Akun> daftarAkun = new List<Akun>();
@@ -85,13 +93,9 @@ namespace View
             return daftarAkun;
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-          
-        }
-
         private void btnClear_Click(object sender, EventArgs e)
         {
+            // Membersihkan text box
             txtUname.Clear();
             txtPassword.Clear();
             txtName.Clear();
@@ -102,22 +106,29 @@ namespace View
             if (dataGridView1.SelectedRows.Count > 0)
             {
                 DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
-                string usernameToDelete = selectedRow.Cells[0].Value.ToString();
+                string usernameToDelete = selectedRow.Cells[0].Value?.ToString() ?? string.Empty;
 
-                // Read the current list of Akun from the JSON file
+                // Validasi input
+                if (string.IsNullOrWhiteSpace(usernameToDelete))
+                {
+                    MessageBox.Show("Invalid username.");
+                    return;
+                }
+
+                // Membaca daftar akun saat ini dari file JSON
                 List<Akun> daftarAkun = ReadJsonFile(fileDataPathAkun);
 
-                // Remove the Akun with the selected username
-                daftarAkun.RemoveAll(a => a.Username == usernameToDelete);
+                // Menghapus akun dengan username yang dipilih
+                daftarAkun.RemoveAll(a => a.Username == SanitizeInput(usernameToDelete));
 
-                // Serialize the updated list back to the JSON file
+                // Menyimpan daftar akun yang diperbarui kembali ke file JSON
                 string updatedJson = JsonSerializer.Serialize(daftarAkun);
                 File.WriteAllText(fileDataPathAkun, updatedJson);
 
-                // Refresh the DataGridView
+                // Menyegarkan DataGridView
                 PopulateDataGridView();
 
-                // Clear the text boxes
+                // Membersihkan text box
                 btnClear_Click(sender, e);
             }
             else
@@ -128,7 +139,18 @@ namespace View
 
         private void btnBack_Click(object sender, EventArgs e)
         {
+            // Menyembunyikan form saat tombol kembali ditekan
             this.Hide();
+        }
+
+        // Method to sanitize input to prevent injection attacks
+        private string SanitizeInput(string input)
+        {
+            if (input == null)
+                return string.Empty;
+
+            // Menghapus karakter yang tidak diinginkan
+            return Regex.Replace(input, @"[^\w\s@.-]", string.Empty);
         }
     }
 }

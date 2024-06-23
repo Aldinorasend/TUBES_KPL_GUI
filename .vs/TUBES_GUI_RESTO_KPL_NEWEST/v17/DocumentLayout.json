@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\view\\akunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\akunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\view\\akunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\akunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|c:\\users\\yohanes victor\\documents\\abel\\tubes_kpl_gui\\view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,14 +31,6 @@
       "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\view\\akunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\akunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\view\\akunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\akunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\view\\akunmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7438478-039C-4BAE-AAD6-33FF05DCA319}|View\\View.csproj|solutionrelative:view\\akunmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -42,23 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderManager.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\OrderManager.Designer.cs",
-              "RelativeDocumentMoniker": "View\\OrderManager.Designer.cs",
-              "ToolTip": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\OrderManager.Designer.cs",
-              "RelativeToolTip": "View\\OrderManager.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
-              "WhenOpened": "2024-06-23T19:01:53.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OrderManager.cs",
               "DocumentMoniker": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\OrderManager.cs",
               "RelativeDocumentMoniker": "View\\OrderManager.cs",
@@ -71,18 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\OrderManager.cs",
-              "RelativeDocumentMoniker": "View\\OrderManager.cs",
-              "ToolTip": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\OrderManager.cs [Design]",
-              "RelativeToolTip": "View\\OrderManager.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-06-23T19:01:38.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Homepage.cs",
               "DocumentMoniker": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\Homepage.cs",
               "RelativeDocumentMoniker": "View\\Homepage.cs",
@@ -94,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Homepage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\Homepage.cs",
               "RelativeDocumentMoniker": "View\\Homepage.cs",
@@ -105,15 +82,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "AkunManager.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\AkunManager.cs",
+              "RelativeDocumentMoniker": "View\\AkunManager.cs",
+              "ToolTip": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\AkunManager.cs [Design]",
+              "RelativeToolTip": "View\\AkunManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:20:42.034Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AkunManager.cs",
               "DocumentMoniker": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\AkunManager.cs",
               "RelativeDocumentMoniker": "View\\AkunManager.cs",
               "ToolTip": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\AkunManager.cs",
               "RelativeToolTip": "View\\AkunManager.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAwwFkAAAAKAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAqwGMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:24:59.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderManager.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\OrderManager.cs",
+              "RelativeDocumentMoniker": "View\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\OrderManager.cs [Design]",
+              "RelativeToolTip": "View\\OrderManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-06-23T18:24:59.607Z"
+              "WhenOpened": "2024-06-23T19:01:38.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderManager.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\OrderManager.Designer.cs",
+              "RelativeDocumentMoniker": "View\\OrderManager.Designer.cs",
+              "ToolTip": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\OrderManager.Designer.cs",
+              "RelativeToolTip": "View\\OrderManager.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-06-23T19:01:53.16Z"
             },
             {
               "$type": "Document",
@@ -125,18 +138,8 @@
               "RelativeToolTip": "View\\AkunManager.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:24:41.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AkunManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\AkunManager.cs",
-              "RelativeDocumentMoniker": "View\\AkunManager.cs",
-              "ToolTip": "C:\\Users\\Yohanes Victor\\Documents\\ABEL\\TUBES_KPL_GUI\\View\\AkunManager.cs [Design]",
-              "RelativeToolTip": "View\\AkunManager.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:20:42.034Z"
+              "WhenOpened": "2024-06-23T18:24:41.109Z",
+              "EditorCaption": ""
             }
           ]
         }
